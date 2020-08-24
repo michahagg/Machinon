@@ -46,6 +46,7 @@ function setColorScheme() {
     $("body").get(0).style.setProperty('--main-blue-color-values',hexToRGB(theme.color_scheme.main_color, true));
     $("body").get(0).style.setProperty('--main-navbar-bg-color',hexToRGB(theme.color_scheme.navbar));
     $("body").get(0).style.setProperty('--main-item-bg-color',hexToRGB(theme.color_scheme.item));
+    $("body").get(0).style.setProperty('--main-item-bg-color-values',hexToRGB(theme.color_scheme.item, true));
     $("body").get(0).style.setProperty('--main-text-color',hexToRGB(theme.color_scheme.main_text));
     $("body").get(0).style.setProperty('--secondary-text-color',hexToRGB(theme.color_scheme.secondary_text));
     $("body").get(0).style.setProperty('--main-disabled-color',hexToRGB(theme.color_scheme.disabled));

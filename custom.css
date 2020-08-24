@@ -449,7 +449,8 @@ div.bannercontent .row.divider {
 .rectangle-8,
 .rectangle-8-dropdown,
 #settings .row-fluid > div {
-    background: var(--main-item-bg-color);
+    background: rgba(var(--main-item-bg-color-values), 0.6);
+    backdrop-filter: blur(5px);
     border: 1.5px solid;
     border-color: transparent;
     border-radius: 6px;
@@ -504,8 +505,6 @@ div.bannercontent .row.divider {
 /* bigtext */
 .item #bigtext {
     color: var(--main-blue-color);
-    background: var(--main-item-bg-color);
-    background: linear-gradient(to right, rgba(255,255,255,0), var(--main-item-bg-color) 15px);
     font-size: 1.4em;
     line-height: 20px;
     grid-area: bigtext;
