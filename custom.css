@@ -450,7 +450,8 @@ div.bannercontent .row.divider {
 .rectangle-8-dropdown,
 #settings .row-fluid > div {
     background: rgba(var(--main-item-bg-color-values), 0.6);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     border: 1.5px solid;
     border-color: transparent;
     border-radius: 6px;
@@ -855,7 +856,7 @@ div.menu-toggle {
 }
 
 div.menu-toggle.scrolled {
-    background: var(--main-blue-color);
+    background: var(--main-navbar-bg-color);
     transition: background-color 1s ease;
     padding: 0 5px 15px 5px;
     border-bottom-left-radius: 6px;
@@ -863,7 +864,7 @@ div.menu-toggle.scrolled {
 }
 
 .navbar-inverse {
-    background-color: rgba(var(--main-navbar-bg-color-values), .6);
+    background-color: rgba(var(--main-navbar-bg-color-values), .8);
 }
 
 .navbar-inverse .navbar-inner.slide + .menu-toggle:before {
@@ -1442,7 +1443,7 @@ input#AcceptNewHardware:checked ~ button {
 }
 
 select.ui-corner-all option {
-    background: var(--main-navbar-bg-color);
+    background: var(--main-item-bg-color);
 }
 
 /* =Setup */

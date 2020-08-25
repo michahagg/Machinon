@@ -6,7 +6,7 @@ var supported_lang = "en fr de sv nl pl";
 var light_theme = {
     bg: "#f1f1f1",
     main: "#0b96cd",
-    navbar: "#ffffff",
+    navbar: "#0b96cd",
     item: "#ffffff",
     text: "#1a1a1a",
     alt_text: "#6d6e6d",
