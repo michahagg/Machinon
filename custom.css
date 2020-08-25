@@ -576,9 +576,7 @@ div.bannercontent .row.divider {
 /* item subnav applying by click*/
 .options-cell {
     padding: 0 3px !important;
-    margin-right: 5px !important;
     color: var(--main-blue-color);
-    background: var(--main-item-bg-color);
     font-size: 26px;
     cursor: pointer;
     grid-area: options;
