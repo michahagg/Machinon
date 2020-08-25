@@ -25,7 +25,7 @@ img.header__icon {
 
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
     .navbar-inverse .navbar-inner {
-        background-color: transparent !important;
+        background-color: rgba(var(--main-navbar-bg-color-values), 0.6) !important;
         -webkit-backdrop-filter: blur(3px) opacity(.8);
         backdrop-filter: blur(3px) opacity(.8);
     }

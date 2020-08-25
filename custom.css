@@ -805,11 +805,6 @@ html.pattern {
 }
 
 /* Header */
-header.logo {
-    background: var(--main-disabled-color);
-    background: linear-gradient(to right, var(--main-disabled-color) 0%, var(--main-blue-color) 100%);
-}
-
 .container-logo {
     height: 40px;
     margin: 0 auto;
@@ -867,6 +862,10 @@ div.menu-toggle.scrolled {
     border-bottom-right-radius: 6px;
 }
 
+.navbar-inverse {
+    background-color: rgba(var(--main-navbar-bg-color-values), .6);
+}
+
 .navbar-inverse .navbar-inner.slide + .menu-toggle:before {
     transform: translateY(12px) rotate(135deg);
 }
@@ -881,7 +880,9 @@ div.menu-toggle.scrolled {
 
 .navbar-inverse .navbar-inner {
     border: none;
-    background-color: var(--main-navbar-bg-color);
+    background: transparent;
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 
 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
