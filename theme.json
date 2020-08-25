@@ -34,11 +34,6 @@
             "enabled":false,
             "files": ["dark_theme.css"]
         },
-        "footer_text_disabled": {
-            "id":11,
-            "enabled":true,
-            "files": ["footer.css"]
-        },
         "custom_settings_menu": {
             "id":12,
             "enabled":true,
