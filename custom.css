@@ -168,6 +168,19 @@ h4,
     color: var(--main-item-color);
     border-bottom: none;
 }
+
+/* force popups to be centered on the screen. */
+.ui-dialog,
+.ui-popup {
+    height: auto!important;
+    width: auto!important;
+    position: fixed!important;
+    top: 50vh!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%)!important;
+    min-width: 200px!important;
+}
+
 /* Search */
 #search {
     float: right;
