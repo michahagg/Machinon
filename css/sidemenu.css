@@ -190,6 +190,10 @@ img.header__icon {
     margin-top: -40px;
 }
 
+#holder {
+    min-height: calc(100% - 60px);
+}
+
 #holder > .container-fluid {
     padding-top: 0;
 }
